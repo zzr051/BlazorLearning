@@ -1,0 +1,38 @@
+﻿@page "/carddesign"
+<h1>Card Design (Blazor Data Binding)</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <h3>Design</h3>
+            <form>
+                <div class="form-group">
+                    <label for="Heading">Heading</label>
+                    <input type="text" class="form-control" id="Heading"/>
+                </div>
+                <div class="form-group">
+                    <label for="Description">Description</label>
+                    <textarea class="form-control" id="Description" row="4"></textarea>
+                </div>
+                <button class="btn btn-secondary mb-2">Reset</button>
+            </form>
+        </div>
+        <div class="col-4">
+            <h3>Preview</h3>
+            <div class="card bg-light w-100">
+                <div class="card-header">
+                    Heading
+                </div>
+                <div claas="card-body">
+                    <p class="card-text">
+                        Description
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+
+}
